@@ -1,0 +1,310 @@
+2023-04-25 00:55:50,777 INFO    StreamThr :102499 [internal.py:wandb_internal():89] W&B internal server running at pid: 102499, started at: 2023-04-25 00:55:50.776764
+2023-04-25 00:55:50,778 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: status
+2023-04-25 00:55:50,780 INFO    WriterThread:102499 [datastore.py:open_for_write():85] open: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/run-hfra64pe.wandb
+2023-04-25 00:55:50,781 DEBUG   SenderThread:102499 [sender.py:send():375] send: header
+2023-04-25 00:55:50,781 DEBUG   SenderThread:102499 [sender.py:send():375] send: run
+2023-04-25 00:55:51,918 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: check_version
+2023-04-25 00:55:51,920 INFO    SenderThread:102499 [dir_watcher.py:__init__():219] watching files in: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files
+2023-04-25 00:55:51,920 INFO    SenderThread:102499 [sender.py:_start_run_threads():1127] run started: hfra64pe with start time 1682351750.775964
+2023-04-25 00:55:51,920 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:55:51,920 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:55:51,920 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: check_version
+2023-04-25 00:55:52,001 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: run_start
+2023-04-25 00:55:52,004 DEBUG   HandlerThread:102499 [system_info.py:__init__():31] System info init
+2023-04-25 00:55:52,004 DEBUG   HandlerThread:102499 [system_info.py:__init__():46] System info init done
+2023-04-25 00:55:52,004 INFO    HandlerThread:102499 [system_monitor.py:start():181] Starting system monitor
+2023-04-25 00:55:52,005 INFO    SystemMonitor:102499 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-04-25 00:55:52,005 INFO    HandlerThread:102499 [system_monitor.py:probe():201] Collecting system info
+2023-04-25 00:55:52,006 INFO    SystemMonitor:102499 [interfaces.py:start():190] Started cpu monitoring
+2023-04-25 00:55:52,007 INFO    SystemMonitor:102499 [interfaces.py:start():190] Started disk monitoring
+2023-04-25 00:55:52,007 INFO    SystemMonitor:102499 [interfaces.py:start():190] Started gpu monitoring
+2023-04-25 00:55:52,007 INFO    SystemMonitor:102499 [interfaces.py:start():190] Started memory monitoring
+2023-04-25 00:55:52,007 INFO    SystemMonitor:102499 [interfaces.py:start():190] Started network monitoring
+2023-04-25 00:55:52,052 DEBUG   HandlerThread:102499 [system_info.py:probe():195] Probing system
+2023-04-25 00:55:52,057 DEBUG   HandlerThread:102499 [git.py:repo():40] git repository is invalid
+2023-04-25 00:55:52,057 DEBUG   HandlerThread:102499 [system_info.py:probe():240] Probing system done
+2023-04-25 00:55:52,057 DEBUG   HandlerThread:102499 [system_monitor.py:probe():210] {'os': 'Linux-5.11.0-41-generic-x86_64-with-debian-bullseye-sid', 'python': '3.7.16', 'heartbeatAt': '2023-04-24T15:55:52.053006', 'startedAt': '2023-04-24T15:55:50.766485', 'docker': None, 'cuda': None, 'args': ('with', 'valence', '1', '2', '3', '4'), 'state': 'running', 'program': 'cnn3.py', 'codePath': 'cnn3.py', 'host': 'tbone', 'username': 'jyhong', 'executable': '/home/jyhong/.conda/envs/test/bin/python', 'cpu_count': 16, 'cpu_count_logical': 32, 'cpu_freq': {'current': 2212.4695, 'min': 2200.0, 'max': 3900.0}, 'cpu_freq_per_core': [{'current': 2200.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2400.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2400.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2400.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3900.0}, {'current': 3900.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2400.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2584.425, 'min': 2200.0, 'max': 3900.0}, {'current': 2400.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2400.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3900.0}, {'current': 2200.0, 'min': 2200.0, 'max': 3900.0}], 'disk': {'total': 919.9431228637695, 'used': 856.3686866760254}, 'gpu': 'RTX A6000', 'gpu_count': 4, 'gpu_devices': [{'name': 'RTX A6000', 'memory_total': 51050315776}, {'name': 'RTX A6000', 'memory_total': 51050315776}, {'name': 'RTX A6000', 'memory_total': 51047170048}, {'name': 'RTX A6000', 'memory_total': 51050315776}], 'memory': {'total': 503.5376434326172}}
+2023-04-25 00:55:52,058 INFO    HandlerThread:102499 [system_monitor.py:probe():211] Finished collecting system info
+2023-04-25 00:55:52,058 INFO    HandlerThread:102499 [system_monitor.py:probe():214] Publishing system info
+2023-04-25 00:55:52,058 DEBUG   HandlerThread:102499 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-04-25 00:55:52,058 DEBUG   HandlerThread:102499 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-25 00:55:52,058 DEBUG   HandlerThread:102499 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-04-25 00:55:52,922 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_created():278] file/dir created: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/requirements.txt
+2023-04-25 00:55:52,922 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_created():278] file/dir created: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/wandb-summary.json
+2023-04-25 00:55:52,922 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_created():278] file/dir created: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/conda-environment.yaml
+2023-04-25 00:55:54,537 DEBUG   HandlerThread:102499 [system_info.py:_save_conda():86] Saving conda packages done
+2023-04-25 00:55:54,538 INFO    HandlerThread:102499 [system_monitor.py:probe():216] Finished publishing system info
+2023-04-25 00:55:54,543 DEBUG   SenderThread:102499 [sender.py:send():375] send: files
+2023-04-25 00:55:54,544 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-metadata.json with policy now
+2023-04-25 00:55:54,549 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-25 00:55:54,549 DEBUG   SenderThread:102499 [sender.py:send():375] send: telemetry
+2023-04-25 00:55:54,549 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: stop_status
+2023-04-25 00:55:54,923 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/conda-environment.yaml
+2023-04-25 00:55:54,923 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_created():278] file/dir created: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/output.log
+2023-04-25 00:55:54,923 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_created():278] file/dir created: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/wandb-metadata.json
+2023-04-25 00:55:55,228 INFO    wandb-upload_0:102499 [upload_job.py:push():137] Uploaded file /tmp/tmpa_ic4zwrwandb/8nrw69q8-wandb-metadata.json
+2023-04-25 00:55:56,362 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: status_report
+2023-04-25 00:55:56,924 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/output.log
+2023-04-25 00:56:01,365 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: status_report
+2023-04-25 00:56:04,927 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/output.log
+2023-04-25 00:56:05,374 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:05,376 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:05,376 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:05,376 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:05,402 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:05,403 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:05,404 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:05,404 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:05,927 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/wandb-summary.json
+2023-04-25 00:56:06,113 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:06,114 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:06,114 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:06,114 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:06,140 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:06,141 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:06,141 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:06,141 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:06,860 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: status_report
+2023-04-25 00:56:06,862 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:06,863 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:06,863 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:06,864 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:06,890 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:06,891 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:06,891 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:06,891 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:06,927 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/output.log
+2023-04-25 00:56:06,928 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/wandb-summary.json
+2023-04-25 00:56:07,596 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:07,597 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:07,597 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:07,597 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:07,623 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:07,625 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:07,625 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:07,625 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:07,928 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/wandb-summary.json
+2023-04-25 00:56:08,328 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:08,330 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:08,330 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:08,330 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:08,355 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:08,356 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:08,356 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:08,356 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:08,928 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/output.log
+2023-04-25 00:56:08,928 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/wandb-summary.json
+2023-04-25 00:56:09,070 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:09,071 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:09,071 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:09,072 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:09,096 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:09,097 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:09,097 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:09,098 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:09,547 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-25 00:56:09,547 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: stop_status
+2023-04-25 00:56:09,804 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:09,805 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:09,805 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:09,805 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:09,830 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:09,831 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:09,831 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:09,831 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:09,929 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/wandb-summary.json
+2023-04-25 00:56:10,534 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:10,536 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:10,536 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:10,536 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:10,561 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:10,562 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:10,562 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:10,562 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:10,929 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/output.log
+2023-04-25 00:56:10,929 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/wandb-summary.json
+2023-04-25 00:56:11,263 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:11,264 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:11,265 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:11,265 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:11,290 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:11,291 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:11,291 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:11,291 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:11,929 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/wandb-summary.json
+2023-04-25 00:56:11,989 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: status_report
+2023-04-25 00:56:11,990 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:11,991 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:11,991 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:11,991 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:12,016 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:12,026 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:12,026 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:12,026 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:12,718 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:12,720 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:12,720 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:12,720 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:12,747 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:12,748 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:12,748 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:12,749 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:12,929 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/output.log
+2023-04-25 00:56:12,930 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/wandb-summary.json
+2023-04-25 00:56:13,446 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:13,447 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:13,447 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:13,447 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:13,475 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:13,476 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:13,476 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:13,477 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:13,930 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/wandb-summary.json
+2023-04-25 00:56:14,174 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:14,175 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:14,175 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:14,176 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:14,200 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:14,201 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:14,202 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:14,202 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:14,897 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:14,898 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:14,898 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:14,899 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:14,923 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: partial_history
+2023-04-25 00:56:14,924 DEBUG   SenderThread:102499 [sender.py:send():375] send: history
+2023-04-25 00:56:14,924 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: summary_record
+2023-04-25 00:56:14,925 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:14,930 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/output.log
+2023-04-25 00:56:14,930 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/wandb-summary.json
+2023-04-25 00:56:15,433 DEBUG   SenderThread:102499 [sender.py:send():375] send: exit
+2023-04-25 00:56:15,433 INFO    SenderThread:102499 [sender.py:send_exit():598] handling exit code: 255
+2023-04-25 00:56:15,433 INFO    SenderThread:102499 [sender.py:send_exit():600] handling runtime: 23
+2023-04-25 00:56:15,433 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:15,433 INFO    SenderThread:102499 [sender.py:send_exit():606] send defer
+2023-04-25 00:56:15,434 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 00:56:15,434 INFO    HandlerThread:102499 [handler.py:handle_request_defer():170] handle defer: 0
+2023-04-25 00:56:15,434 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: defer
+2023-04-25 00:56:15,434 INFO    SenderThread:102499 [sender.py:send_request_defer():622] handle sender defer: 0
+2023-04-25 00:56:15,434 INFO    SenderThread:102499 [sender.py:transition_state():626] send defer: 1
+2023-04-25 00:56:15,434 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 00:56:15,434 INFO    HandlerThread:102499 [handler.py:handle_request_defer():170] handle defer: 1
+2023-04-25 00:56:15,435 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: defer
+2023-04-25 00:56:15,435 INFO    SenderThread:102499 [sender.py:send_request_defer():622] handle sender defer: 1
+2023-04-25 00:56:15,435 INFO    SenderThread:102499 [sender.py:transition_state():626] send defer: 2
+2023-04-25 00:56:15,435 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 00:56:15,435 INFO    HandlerThread:102499 [handler.py:handle_request_defer():170] handle defer: 2
+2023-04-25 00:56:15,435 INFO    HandlerThread:102499 [system_monitor.py:finish():190] Stopping system monitor
+2023-04-25 00:56:15,436 INFO    HandlerThread:102499 [interfaces.py:finish():202] Joined cpu monitor
+2023-04-25 00:56:15,436 DEBUG   SystemMonitor:102499 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-04-25 00:56:15,436 INFO    HandlerThread:102499 [interfaces.py:finish():202] Joined disk monitor
+2023-04-25 00:56:15,437 DEBUG   SystemMonitor:102499 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-04-25 00:56:15,437 DEBUG   SystemMonitor:102499 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-04-25 00:56:15,597 INFO    HandlerThread:102499 [interfaces.py:finish():202] Joined gpu monitor
+2023-04-25 00:56:15,597 INFO    HandlerThread:102499 [interfaces.py:finish():202] Joined memory monitor
+2023-04-25 00:56:15,598 INFO    HandlerThread:102499 [interfaces.py:finish():202] Joined network monitor
+2023-04-25 00:56:15,598 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: defer
+2023-04-25 00:56:15,598 INFO    SenderThread:102499 [sender.py:send_request_defer():622] handle sender defer: 2
+2023-04-25 00:56:15,598 INFO    SenderThread:102499 [sender.py:transition_state():626] send defer: 3
+2023-04-25 00:56:15,598 DEBUG   SenderThread:102499 [sender.py:send():375] send: stats
+2023-04-25 00:56:15,598 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 00:56:15,599 INFO    HandlerThread:102499 [handler.py:handle_request_defer():170] handle defer: 3
+2023-04-25 00:56:15,599 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: defer
+2023-04-25 00:56:15,599 INFO    SenderThread:102499 [sender.py:send_request_defer():622] handle sender defer: 3
+2023-04-25 00:56:15,599 INFO    SenderThread:102499 [sender.py:transition_state():626] send defer: 4
+2023-04-25 00:56:15,599 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 00:56:15,599 INFO    HandlerThread:102499 [handler.py:handle_request_defer():170] handle defer: 4
+2023-04-25 00:56:15,600 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: defer
+2023-04-25 00:56:15,600 INFO    SenderThread:102499 [sender.py:send_request_defer():622] handle sender defer: 4
+2023-04-25 00:56:15,600 INFO    SenderThread:102499 [sender.py:transition_state():626] send defer: 5
+2023-04-25 00:56:15,600 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 00:56:15,600 INFO    HandlerThread:102499 [handler.py:handle_request_defer():170] handle defer: 5
+2023-04-25 00:56:15,601 DEBUG   SenderThread:102499 [sender.py:send():375] send: summary
+2023-04-25 00:56:15,601 INFO    SenderThread:102499 [sender.py:_save_file():1378] saving file wandb-summary.json with policy end
+2023-04-25 00:56:15,601 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: defer
+2023-04-25 00:56:15,601 INFO    SenderThread:102499 [sender.py:send_request_defer():622] handle sender defer: 5
+2023-04-25 00:56:15,601 INFO    SenderThread:102499 [sender.py:transition_state():626] send defer: 6
+2023-04-25 00:56:15,601 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 00:56:15,601 INFO    HandlerThread:102499 [handler.py:handle_request_defer():170] handle defer: 6
+2023-04-25 00:56:15,602 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: defer
+2023-04-25 00:56:15,602 INFO    SenderThread:102499 [sender.py:send_request_defer():622] handle sender defer: 6
+2023-04-25 00:56:15,607 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: status_report
+2023-04-25 00:56:15,876 INFO    SenderThread:102499 [sender.py:transition_state():626] send defer: 7
+2023-04-25 00:56:15,876 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 00:56:15,876 INFO    HandlerThread:102499 [handler.py:handle_request_defer():170] handle defer: 7
+2023-04-25 00:56:15,876 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: defer
+2023-04-25 00:56:15,876 INFO    SenderThread:102499 [sender.py:send_request_defer():622] handle sender defer: 7
+2023-04-25 00:56:15,930 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/wandb-summary.json
+2023-04-25 00:56:15,931 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/config.yaml
+2023-04-25 00:56:16,433 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-25 00:56:16,931 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/output.log
+2023-04-25 00:56:17,436 INFO    SenderThread:102499 [sender.py:transition_state():626] send defer: 8
+2023-04-25 00:56:17,436 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: poll_exit
+2023-04-25 00:56:17,436 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 00:56:17,437 INFO    HandlerThread:102499 [handler.py:handle_request_defer():170] handle defer: 8
+2023-04-25 00:56:17,437 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: defer
+2023-04-25 00:56:17,437 INFO    SenderThread:102499 [sender.py:send_request_defer():622] handle sender defer: 8
+2023-04-25 00:56:17,437 INFO    SenderThread:102499 [sender.py:transition_state():626] send defer: 9
+2023-04-25 00:56:17,437 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 00:56:17,437 INFO    HandlerThread:102499 [handler.py:handle_request_defer():170] handle defer: 9
+2023-04-25 00:56:17,438 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: defer
+2023-04-25 00:56:17,438 INFO    SenderThread:102499 [sender.py:send_request_defer():622] handle sender defer: 9
+2023-04-25 00:56:17,438 INFO    SenderThread:102499 [dir_watcher.py:finish():365] shutting down directory watcher
+2023-04-25 00:56:17,931 INFO    Thread-12 :102499 [dir_watcher.py:_on_file_modified():295] file/dir modified: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/output.log
+2023-04-25 00:56:17,932 INFO    SenderThread:102499 [dir_watcher.py:finish():395] scan: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files
+2023-04-25 00:56:17,932 INFO    SenderThread:102499 [dir_watcher.py:finish():409] scan save: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/wandb-metadata.json wandb-metadata.json
+2023-04-25 00:56:17,932 INFO    SenderThread:102499 [dir_watcher.py:finish():409] scan save: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/config.yaml config.yaml
+2023-04-25 00:56:17,932 INFO    SenderThread:102499 [dir_watcher.py:finish():409] scan save: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/requirements.txt requirements.txt
+2023-04-25 00:56:17,932 INFO    SenderThread:102499 [dir_watcher.py:finish():409] scan save: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/conda-environment.yaml conda-environment.yaml
+2023-04-25 00:56:17,936 INFO    SenderThread:102499 [dir_watcher.py:finish():409] scan save: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/output.log output.log
+2023-04-25 00:56:17,940 INFO    SenderThread:102499 [dir_watcher.py:finish():409] scan save: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/wandb-summary.json wandb-summary.json
+2023-04-25 00:56:17,943 INFO    SenderThread:102499 [sender.py:transition_state():626] send defer: 10
+2023-04-25 00:56:17,944 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 00:56:17,947 INFO    HandlerThread:102499 [handler.py:handle_request_defer():170] handle defer: 10
+2023-04-25 00:56:17,950 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: defer
+2023-04-25 00:56:17,950 INFO    SenderThread:102499 [sender.py:send_request_defer():622] handle sender defer: 10
+2023-04-25 00:56:17,950 INFO    SenderThread:102499 [file_pusher.py:finish():168] shutting down file pusher
+2023-04-25 00:56:18,489 INFO    wandb-upload_1:102499 [upload_job.py:push():137] Uploaded file /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/config.yaml
+2023-04-25 00:56:18,657 INFO    wandb-upload_3:102499 [upload_job.py:push():137] Uploaded file /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/conda-environment.yaml
+2023-04-25 00:56:18,680 INFO    wandb-upload_2:102499 [upload_job.py:push():137] Uploaded file /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/output.log
+2023-04-25 00:56:20,136 INFO    wandb-upload_5:102499 [upload_job.py:push():137] Uploaded file /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/wandb-summary.json
+2023-04-25 00:56:20,197 INFO    wandb-upload_0:102499 [upload_job.py:push():137] Uploaded file /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/files/requirements.txt
+2023-04-25 00:56:20,398 INFO    Thread-11 :102499 [sender.py:transition_state():626] send defer: 11
+2023-04-25 00:56:20,398 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 00:56:20,398 INFO    HandlerThread:102499 [handler.py:handle_request_defer():170] handle defer: 11
+2023-04-25 00:56:20,399 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: defer
+2023-04-25 00:56:20,399 INFO    SenderThread:102499 [sender.py:send_request_defer():622] handle sender defer: 11
+2023-04-25 00:56:20,399 INFO    SenderThread:102499 [file_pusher.py:join():173] waiting for file pusher
+2023-04-25 00:56:20,399 INFO    SenderThread:102499 [sender.py:transition_state():626] send defer: 12
+2023-04-25 00:56:20,399 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 00:56:20,399 INFO    HandlerThread:102499 [handler.py:handle_request_defer():170] handle defer: 12
+2023-04-25 00:56:20,399 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: defer
+2023-04-25 00:56:20,399 INFO    SenderThread:102499 [sender.py:send_request_defer():622] handle sender defer: 12
+2023-04-25 00:56:21,140 INFO    SenderThread:102499 [sender.py:transition_state():626] send defer: 13
+2023-04-25 00:56:21,141 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 00:56:21,141 INFO    HandlerThread:102499 [handler.py:handle_request_defer():170] handle defer: 13
+2023-04-25 00:56:21,141 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: defer
+2023-04-25 00:56:21,141 INFO    SenderThread:102499 [sender.py:send_request_defer():622] handle sender defer: 13
+2023-04-25 00:56:21,141 INFO    SenderThread:102499 [sender.py:transition_state():626] send defer: 14
+2023-04-25 00:56:21,141 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: defer
+2023-04-25 00:56:21,141 INFO    HandlerThread:102499 [handler.py:handle_request_defer():170] handle defer: 14
+2023-04-25 00:56:21,142 DEBUG   SenderThread:102499 [sender.py:send():375] send: final
+2023-04-25 00:56:21,142 DEBUG   SenderThread:102499 [sender.py:send():375] send: footer
+2023-04-25 00:56:21,142 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: defer
+2023-04-25 00:56:21,142 INFO    SenderThread:102499 [sender.py:send_request_defer():622] handle sender defer: 14
+2023-04-25 00:56:21,142 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: poll_exit
+2023-04-25 00:56:21,143 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: poll_exit
+2023-04-25 00:56:21,143 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: server_info
+2023-04-25 00:56:21,143 DEBUG   SenderThread:102499 [sender.py:send_request():402] send_request: server_info
+2023-04-25 00:56:21,144 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: get_summary
+2023-04-25 00:56:21,147 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: sampled_history
+2023-04-25 00:56:21,558 INFO    MainThread:102499 [wandb_run.py:_footer_history_summary_info():3476] rendering history
+2023-04-25 00:56:21,558 INFO    MainThread:102499 [wandb_run.py:_footer_history_summary_info():3508] rendering summary
+2023-04-25 00:56:21,558 INFO    MainThread:102499 [wandb_run.py:_footer_sync_info():3434] logging synced files
+2023-04-25 00:56:21,559 DEBUG   HandlerThread:102499 [handler.py:handle_request():144] handle_request: shutdown
+2023-04-25 00:56:21,559 INFO    HandlerThread:102499 [handler.py:finish():845] shutting down handler
+2023-04-25 00:56:22,143 INFO    WriterThread:102499 [datastore.py:close():298] close: /home/jyhong/DE_CNN-master/DE_CNN/wandb/run-20230425_005550-hfra64pe/run-hfra64pe.wandb
+2023-04-25 00:56:22,558 INFO    SenderThread:102499 [sender.py:finish():1550] shutting down sender
+2023-04-25 00:56:22,558 INFO    SenderThread:102499 [file_pusher.py:finish():168] shutting down file pusher
+2023-04-25 00:56:22,558 INFO    SenderThread:102499 [file_pusher.py:join():173] waiting for file pusher

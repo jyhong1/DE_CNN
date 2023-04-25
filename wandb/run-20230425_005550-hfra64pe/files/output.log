@@ -1,0 +1,64 @@
+folder:  0
+indexes shape:  (14400,)
+cnn_test_x shape:  (1440, 1, 9, 9, 4)
+test_y shape:  (1440, 2)
+cnn_train_x shape:  (12960, 1, 9, 9, 4)
+train_y shape:  (12960, 2)
+training examples: 12960
+test examples    : 1440
+batch_:  102
+learning rate:  0.0001
+(Tue Apr 25 00:56:05 2023) Epoch:  1  Training Cost:  9902.989975873163 Training Accuracy:  0.71875
+(Tue Apr 25 00:56:05 2023) Epoch:  1  Test Cost:  9903.858072916666 Test Accuracy:  0.6966145833333334
+learning rate:  5e-05
+(Tue Apr 25 00:56:06 2023) Epoch:  2  Training Cost:  8416.19748583027 Training Accuracy:  0.7680759803921569
+(Tue Apr 25 00:56:06 2023) Epoch:  2  Test Cost:  8417.071370442709 Test Accuracy:  0.740234375
+learning rate:  5e-05
+(Tue Apr 25 00:56:06 2023) Epoch:  3  Training Cost:  7130.940113740809 Training Accuracy:  0.7963388480392157
+(Tue Apr 25 00:56:06 2023) Epoch:  3  Test Cost:  7131.6437581380205 Test Accuracy:  0.7532552083333334
+learning rate:  5e-05
+(Tue Apr 25 00:56:07 2023) Epoch:  4  Training Cost:  6023.6252537147675 Training Accuracy:  0.8088235294117647
+(Tue Apr 25 00:56:07 2023) Epoch:  4  Test Cost:  6024.268147786458 Test Accuracy:  0.7623697916666666
+learning rate:  5e-05
+(Tue Apr 25 00:56:08 2023) Epoch:  5  Training Cost:  5073.076435163909 Training Accuracy:  0.8348651960784313
+(Tue Apr 25 00:56:08 2023) Epoch:  5  Test Cost:  5073.6101481119795 Test Accuracy:  0.7858072916666666
+learning rate:  5e-05
+(Tue Apr 25 00:56:09 2023) Epoch:  6  Training Cost:  4259.726777918198 Training Accuracy:  0.8392310049019608
+(Tue Apr 25 00:56:09 2023) Epoch:  6  Test Cost:  4260.2060953776045 Test Accuracy:  0.791015625
+learning rate:  5e-05
+(Tue Apr 25 00:56:09 2023) Epoch:  7  Training Cost:  3565.405934053309 Training Accuracy:  0.8530943627450981
+(Tue Apr 25 00:56:09 2023) Epoch:  7  Test Cost:  3565.7992960611978 Test Accuracy:  0.8053385416666666
+learning rate:  1e-06
+(Tue Apr 25 00:56:10 2023) Epoch:  8  Training Cost:  2974.642958697151 Training Accuracy:  0.8584558823529411
+(Tue Apr 25 00:56:10 2023) Epoch:  8  Test Cost:  2975.0072428385415 Test Accuracy:  0.8092447916666666
+learning rate:  1e-06
+(Tue Apr 25 00:56:11 2023) Epoch:  9  Training Cost:  2473.592924230239 Training Accuracy:  0.8027726715686274
+(Tue Apr 25 00:56:11 2023) Epoch:  9  Test Cost:  2473.897501627604 Test Accuracy:  0.759765625
+learning rate:  5e-05
+(Tue Apr 25 00:56:11 2023) Epoch:  10  Training Cost:  2049.3273111979165 Training Accuracy:  0.8567708333333334
+(Tue Apr 25 00:56:12 2023) Epoch:  10  Test Cost:  2049.5360717773438 Test Accuracy:  0.8125
+learning rate:  1e-06
+(Tue Apr 25 00:56:12 2023) Epoch:  11  Training Cost:  1691.9151395909926 Training Accuracy:  0.8292738970588235
+(Tue Apr 25 00:56:12 2023) Epoch:  11  Test Cost:  1692.1202494303386 Test Accuracy:  0.7825520833333334
+learning rate:  5e-05
+(Tue Apr 25 00:56:13 2023) Epoch:  12  Training Cost:  1391.4510378370098 Training Accuracy:  0.7911305147058824
+(Tue Apr 25 00:56:13 2023) Epoch:  12  Test Cost:  1391.6142069498699 Test Accuracy:  0.7682291666666666
+learning rate:  5e-05
+(Tue Apr 25 00:56:14 2023) Epoch:  13  Training Cost:  1139.7309330958947 Training Accuracy:  0.7818627450980392
+(Tue Apr 25 00:56:14 2023) Epoch:  13  Test Cost:  1139.8505859375 Test Accuracy:  0.7565104166666666
+learning rate:  5e-05
+(Tue Apr 25 00:56:14 2023) Epoch:  14  Training Cost:  929.5771298875995 Training Accuracy:  0.8133425245098039
+(Tue Apr 25 00:56:14 2023) Epoch:  14  Test Cost:  929.6718597412109 Test Accuracy:  0.798828125
+learning rate:  5e-05
+Traceback (most recent call last):
+  File "cnn3.py", line 431, in <module>
+    feed_dict={cnn_in: train_cnn_batch,Y: train_batch_y, keep_prob: 1.0, phase_train: False})
+  File "/home/jyhong/.conda/envs/test/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 968, in run
+    run_metadata_ptr)
+  File "/home/jyhong/.conda/envs/test/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1128, in _run
+    for subfeed, subfeed_val in _feed_fn(feed, feed_val):
+  File "/home/jyhong/.conda/envs/test/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1107, in _feed_fn
+    if isinstance(feed, tensor_type):
+  File "/home/jyhong/.conda/envs/test/lib/python3.7/abc.py", line 139, in __instancecheck__
+    return _abc_instancecheck(cls, instance)
+KeyboardInterrupt

@@ -1,0 +1,212 @@
+folder:  0
+indexes shape:  (14400,)
+cnn_test_x shape:  (1440, 1, 9, 9, 4)
+test_y shape:  (1440, 2)
+cnn_train_x shape:  (12960, 1, 9, 9, 4)
+train_y shape:  (12960, 2)
+training examples: 12960
+test examples    : 1440
+batch_:  102
+learning rate:  0.0001
+(Tue Apr 25 00:53:32 2023) Epoch:  1  Training Cost:  4.974428251677868 Training Accuracy:  0.7563572303921569
+(Tue Apr 25 00:53:32 2023) Epoch:  1  Test Cost:  5.860281070073445 Test Accuracy:  0.728515625
+learning rate:  5e-05
+(Tue Apr 25 00:53:32 2023) Epoch:  2  Training Cost:  2.984463152932186 Training Accuracy:  0.8098958333333334
+(Tue Apr 25 00:53:32 2023) Epoch:  2  Test Cost:  4.028730769952138 Test Accuracy:  0.771484375
+learning rate:  5e-05
+(Tue Apr 25 00:53:33 2023) Epoch:  3  Training Cost:  1.9032748394152696 Training Accuracy:  0.84765625
+(Tue Apr 25 00:53:33 2023) Epoch:  3  Test Cost:  3.2476359804471335 Test Accuracy:  0.7942708333333334
+learning rate:  5e-05
+(Tue Apr 25 00:53:34 2023) Epoch:  4  Training Cost:  1.3276675735034196 Training Accuracy:  0.8669577205882353
+(Tue Apr 25 00:53:34 2023) Epoch:  4  Test Cost:  2.568636099497477 Test Accuracy:  0.8151041666666666
+learning rate:  1e-06
+(Tue Apr 25 00:53:34 2023) Epoch:  5  Training Cost:  0.938046467070486 Training Accuracy:  0.8809742647058824
+(Tue Apr 25 00:53:34 2023) Epoch:  5  Test Cost:  2.281441777944565 Test Accuracy:  0.8177083333333334
+learning rate:  1e-06
+(Tue Apr 25 00:53:35 2023) Epoch:  6  Training Cost:  0.6013631283068189 Training Accuracy:  0.9074754901960784
+(Tue Apr 25 00:53:35 2023) Epoch:  6  Test Cost:  1.9814941187699635 Test Accuracy:  0.8333333333333334
+learning rate:  1e-06
+(Tue Apr 25 00:53:36 2023) Epoch:  7  Training Cost:  0.47127291326429327 Training Accuracy:  0.9176623774509803
+(Tue Apr 25 00:53:36 2023) Epoch:  7  Test Cost:  1.8440808057785034 Test Accuracy:  0.83203125
+learning rate:  1e-06
+(Tue Apr 25 00:53:36 2023) Epoch:  8  Training Cost:  0.33659011972885505 Training Accuracy:  0.9316789215686274
+(Tue Apr 25 00:53:36 2023) Epoch:  8  Test Cost:  1.6417969862620037 Test Accuracy:  0.8444010416666666
+learning rate:  1e-06
+(Tue Apr 25 00:53:37 2023) Epoch:  9  Training Cost:  0.30535150735693817 Training Accuracy:  0.9353553921568627
+(Tue Apr 25 00:53:37 2023) Epoch:  9  Test Cost:  1.4944341480731964 Test Accuracy:  0.845703125
+learning rate:  1e-06
+(Tue Apr 25 00:53:38 2023) Epoch:  10  Training Cost:  0.24912351998043994 Training Accuracy:  0.9418658088235294
+(Tue Apr 25 00:53:38 2023) Epoch:  10  Test Cost:  1.4834994475046794 Test Accuracy:  0.8424479166666666
+learning rate:  1e-06
+(Tue Apr 25 00:53:38 2023) Epoch:  11  Training Cost:  0.2074786884089311 Training Accuracy:  0.9469209558823529
+(Tue Apr 25 00:53:39 2023) Epoch:  11  Test Cost:  1.2974053124586742 Test Accuracy:  0.853515625
+learning rate:  1e-06
+(Tue Apr 25 00:53:39 2023) Epoch:  12  Training Cost:  0.18742268536166817 Training Accuracy:  0.9537377450980392
+(Tue Apr 25 00:53:39 2023) Epoch:  12  Test Cost:  1.2331177492936451 Test Accuracy:  0.8606770833333334
+learning rate:  1e-06
+(Tue Apr 25 00:53:40 2023) Epoch:  13  Training Cost:  0.16938571359816135 Training Accuracy:  0.9554227941176471
+(Tue Apr 25 00:53:40 2023) Epoch:  13  Test Cost:  1.2501010621587436 Test Accuracy:  0.8587239583333334
+learning rate:  1e-06
+(Tue Apr 25 00:53:41 2023) Epoch:  14  Training Cost:  0.1592209206017501 Training Accuracy:  0.9574142156862745
+(Tue Apr 25 00:53:41 2023) Epoch:  14  Test Cost:  1.3077889208992322 Test Accuracy:  0.8600260416666666
+learning rate:  1e-06
+(Tue Apr 25 00:53:41 2023) Epoch:  15  Training Cost:  0.1280306003640826 Training Accuracy:  0.9630821078431373
+(Tue Apr 25 00:53:41 2023) Epoch:  15  Test Cost:  1.1426097974181175 Test Accuracy:  0.8639322916666666
+learning rate:  1e-06
+(Tue Apr 25 00:53:42 2023) Epoch:  16  Training Cost:  0.13176461986686086 Training Accuracy:  0.9615502450980392
+(Tue Apr 25 00:53:42 2023) Epoch:  16  Test Cost:  1.1204961277544498 Test Accuracy:  0.8665364583333334
+learning rate:  1e-06
+(Tue Apr 25 00:53:43 2023) Epoch:  17  Training Cost:  0.13671088171209775 Training Accuracy:  0.9643841911764706
+(Tue Apr 25 00:53:43 2023) Epoch:  17  Test Cost:  1.1584130674600601 Test Accuracy:  0.8671875
+learning rate:  1e-06
+(Tue Apr 25 00:53:43 2023) Epoch:  18  Training Cost:  0.09234339294854697 Training Accuracy:  0.9715073529411765
+(Tue Apr 25 00:53:43 2023) Epoch:  18  Test Cost:  1.1899366180102031 Test Accuracy:  0.8684895833333334
+learning rate:  1e-06
+(Tue Apr 25 00:53:44 2023) Epoch:  19  Training Cost:  0.08782874324642048 Training Accuracy:  0.9748008578431373
+(Tue Apr 25 00:53:44 2023) Epoch:  19  Test Cost:  1.172775462269783 Test Accuracy:  0.873046875
+learning rate:  1e-06
+(Tue Apr 25 00:53:45 2023) Epoch:  20  Training Cost:  0.06191946772913284 Training Accuracy:  0.9801623774509803
+(Tue Apr 25 00:53:45 2023) Epoch:  20  Test Cost:  1.1007030457258224 Test Accuracy:  0.8834635416666666
+learning rate:  1e-06
+(Tue Apr 25 00:53:45 2023) Epoch:  21  Training Cost:  0.06903370696019527 Training Accuracy:  0.9785539215686274
+(Tue Apr 25 00:53:45 2023) Epoch:  21  Test Cost:  1.0546177240709464 Test Accuracy:  0.8821614583333334
+learning rate:  1e-06
+(Tue Apr 25 00:53:46 2023) Epoch:  22  Training Cost:  0.08059504987926458 Training Accuracy:  0.9770986519607843
+(Tue Apr 25 00:53:46 2023) Epoch:  22  Test Cost:  1.1320806841055553 Test Accuracy:  0.8678385416666666
+learning rate:  1e-06
+(Tue Apr 25 00:53:47 2023) Epoch:  23  Training Cost:  0.07836871007092151 Training Accuracy:  0.9764859068627451
+(Tue Apr 25 00:53:47 2023) Epoch:  23  Test Cost:  1.1298672234018643 Test Accuracy:  0.8802083333333334
+learning rate:  1e-06
+(Tue Apr 25 00:53:47 2023) Epoch:  24  Training Cost:  0.06254150856436942 Training Accuracy:  0.9802389705882353
+(Tue Apr 25 00:53:47 2023) Epoch:  24  Test Cost:  1.0486394104858239 Test Accuracy:  0.892578125
+learning rate:  1e-06
+(Tue Apr 25 00:53:48 2023) Epoch:  25  Training Cost:  0.07300360444202728 Training Accuracy:  0.9778645833333334
+(Tue Apr 25 00:53:48 2023) Epoch:  25  Test Cost:  0.9770397295554479 Test Accuracy:  0.8802083333333334
+learning rate:  1e-06
+(Tue Apr 25 00:53:49 2023) Epoch:  26  Training Cost:  0.08232233553894285 Training Accuracy:  0.9774050245098039
+(Tue Apr 25 00:53:49 2023) Epoch:  26  Test Cost:  1.0826703906059265 Test Accuracy:  0.8795572916666666
+learning rate:  1e-06
+(Tue Apr 25 00:53:49 2023) Epoch:  27  Training Cost:  0.0411785534952822 Training Accuracy:  0.9856004901960784
+(Tue Apr 25 00:53:49 2023) Epoch:  27  Test Cost:  0.93258853101482 Test Accuracy:  0.8932291666666666
+learning rate:  1e-06
+(Tue Apr 25 00:53:50 2023) Epoch:  28  Training Cost:  0.060812764376511466 Training Accuracy:  0.9803155637254902
+(Tue Apr 25 00:53:50 2023) Epoch:  28  Test Cost:  1.0222273152321577 Test Accuracy:  0.8776041666666666
+learning rate:  1e-06
+(Tue Apr 25 00:53:51 2023) Epoch:  29  Training Cost:  0.03495069172498131 Training Accuracy:  0.9883578431372549
+(Tue Apr 25 00:53:51 2023) Epoch:  29  Test Cost:  0.99333323041598 Test Accuracy:  0.8860677083333334
+learning rate:  1e-06
+(Tue Apr 25 00:53:51 2023) Epoch:  30  Training Cost:  0.0524187692419361 Training Accuracy:  0.985140931372549
+(Tue Apr 25 00:53:51 2023) Epoch:  30  Test Cost:  1.0051604968806107 Test Accuracy:  0.87890625
+learning rate:  1e-06
+(Tue Apr 25 00:53:52 2023) Epoch:  31  Training Cost:  0.0649350302581511 Training Accuracy:  0.98046875
+(Tue Apr 25 00:53:52 2023) Epoch:  31  Test Cost:  1.1281476592024167 Test Accuracy:  0.8834635416666666
+learning rate:  1e-06
+(Tue Apr 25 00:53:53 2023) Epoch:  32  Training Cost:  0.04256958333351969 Training Accuracy:  0.9861366421568627
+(Tue Apr 25 00:53:53 2023) Epoch:  32  Test Cost:  0.9864565382401148 Test Accuracy:  0.8912760416666666
+learning rate:  1e-06
+(Tue Apr 25 00:53:53 2023) Epoch:  33  Training Cost:  0.025971822127330062 Training Accuracy:  0.9907322303921569
+(Tue Apr 25 00:53:53 2023) Epoch:  33  Test Cost:  0.9181993504365286 Test Accuracy:  0.9029947916666666
+learning rate:  1e-06
+(Tue Apr 25 00:53:54 2023) Epoch:  34  Training Cost:  0.02530088729198563 Training Accuracy:  0.9908088235294118
+(Tue Apr 25 00:53:54 2023) Epoch:  34  Test Cost:  0.8957450992117325 Test Accuracy:  0.900390625
+learning rate:  1e-06
+(Tue Apr 25 00:53:55 2023) Epoch:  35  Training Cost:  0.04011591145050867 Training Accuracy:  0.9872855392156863
+(Tue Apr 25 00:53:55 2023) Epoch:  35  Test Cost:  0.9688871564964453 Test Accuracy:  0.8938802083333334
+learning rate:  1e-06
+(Tue Apr 25 00:53:56 2023) Epoch:  36  Training Cost:  0.03139320575328562 Training Accuracy:  0.9897365196078431
+(Tue Apr 25 00:53:56 2023) Epoch:  36  Test Cost:  0.9381668058534464 Test Accuracy:  0.8938802083333334
+learning rate:  1e-06
+(Tue Apr 25 00:53:56 2023) Epoch:  37  Training Cost:  0.03475674636908533 Training Accuracy:  0.9888174019607843
+(Tue Apr 25 00:53:56 2023) Epoch:  37  Test Cost:  1.179029032588005 Test Accuracy:  0.8834635416666666
+learning rate:  1e-06
+(Tue Apr 25 00:53:57 2023) Epoch:  38  Training Cost:  0.03923513957381468 Training Accuracy:  0.9874387254901961
+(Tue Apr 25 00:53:57 2023) Epoch:  38  Test Cost:  1.022229937215646 Test Accuracy:  0.896484375
+learning rate:  1e-06
+(Tue Apr 25 00:53:58 2023) Epoch:  39  Training Cost:  0.03987048966205204 Training Accuracy:  0.9880514705882353
+(Tue Apr 25 00:53:58 2023) Epoch:  39  Test Cost:  1.0554036386311054 Test Accuracy:  0.896484375
+learning rate:  1e-06
+(Tue Apr 25 00:53:58 2023) Epoch:  40  Training Cost:  0.032450438632747367 Training Accuracy:  0.9884344362745098
+(Tue Apr 25 00:53:58 2023) Epoch:  40  Test Cost:  0.9334277597566446 Test Accuracy:  0.9016927083333334
+learning rate:  1e-06
+(Tue Apr 25 00:53:59 2023) Epoch:  41  Training Cost:  0.03207638094603431 Training Accuracy:  0.9891237745098039
+(Tue Apr 25 00:53:59 2023) Epoch:  41  Test Cost:  0.9457123621056477 Test Accuracy:  0.9016927083333334
+learning rate:  1e-06
+(Tue Apr 25 00:54:00 2023) Epoch:  42  Training Cost:  0.03237534160257829 Training Accuracy:  0.9908088235294118
+(Tue Apr 25 00:54:00 2023) Epoch:  42  Test Cost:  1.0376398017009099 Test Accuracy:  0.896484375
+learning rate:  1e-06
+(Tue Apr 25 00:54:00 2023) Epoch:  43  Training Cost:  0.019521913210922445 Training Accuracy:  0.9930300245098039
+(Tue Apr 25 00:54:00 2023) Epoch:  43  Test Cost:  1.03140123685201 Test Accuracy:  0.8932291666666666
+learning rate:  1e-06
+(Tue Apr 25 00:54:01 2023) Epoch:  44  Training Cost:  0.02540745029405651 Training Accuracy:  0.9916513480392157
+(Tue Apr 25 00:54:01 2023) Epoch:  44  Test Cost:  1.0589651962121327 Test Accuracy:  0.8990885416666666
+learning rate:  1e-06
+(Tue Apr 25 00:54:02 2023) Epoch:  45  Training Cost:  0.01969397169637423 Training Accuracy:  0.9932598039215687
+(Tue Apr 25 00:54:02 2023) Epoch:  45  Test Cost:  1.0490052650372188 Test Accuracy:  0.8899739583333334
+learning rate:  1e-06
+(Tue Apr 25 00:54:02 2023) Epoch:  46  Training Cost:  0.025062141364483693 Training Accuracy:  0.9922640931372549
+(Tue Apr 25 00:54:02 2023) Epoch:  46  Test Cost:  1.0256169537703197 Test Accuracy:  0.892578125
+learning rate:  1e-06
+(Tue Apr 25 00:54:03 2023) Epoch:  47  Training Cost:  0.018915356267397702 Training Accuracy:  0.9934129901960784
+(Tue Apr 25 00:54:03 2023) Epoch:  47  Test Cost:  0.9421048735578855 Test Accuracy:  0.8977864583333334
+learning rate:  1e-06
+(Tue Apr 25 00:54:04 2023) Epoch:  48  Training Cost:  0.029543857443415762 Training Accuracy:  0.9901194852941176
+(Tue Apr 25 00:54:04 2023) Epoch:  48  Test Cost:  0.9289583439628283 Test Accuracy:  0.904296875
+learning rate:  1e-06
+(Tue Apr 25 00:54:04 2023) Epoch:  49  Training Cost:  0.04245098006218791 Training Accuracy:  0.9848345588235294
+(Tue Apr 25 00:54:04 2023) Epoch:  49  Test Cost:  1.0269070193171501 Test Accuracy:  0.8984375
+learning rate:  1e-06
+(Tue Apr 25 00:54:05 2023) Epoch:  50  Training Cost:  0.03221650585685126 Training Accuracy:  0.9897365196078431
+(Tue Apr 25 00:54:05 2023) Epoch:  50  Test Cost:  0.9927138847609361 Test Accuracy:  0.8984375
+(Tue Apr 25 00:54:05 2023) Final Test Cost:  0.9927138847609361 Final Test Accuracy:  0.8984375
+saving  ./DE_CNN/result/all/with/1234/valence/test(1to2)0.xlsx
+**********(Tue Apr 25 00:54:05 2023) Train and Test NN End **********
+folder:  1
+indexes shape:  (14400,)
+cnn_test_x shape:  (1440, 1, 9, 9, 4)
+test_y shape:  (1440, 2)
+cnn_train_x shape:  (12960, 1, 9, 9, 4)
+train_y shape:  (12960, 2)
+training examples: 12960
+test examples    : 1440
+batch_:  102
+learning rate:  1e-06
+(Tue Apr 25 00:54:14 2023) Epoch:  1  Training Cost:  5.08640895170324 Training Accuracy:  0.7359068627450981
+(Tue Apr 25 00:54:14 2023) Epoch:  1  Test Cost:  5.904101610183716 Test Accuracy:  0.7115885416666666
+learning rate:  5e-05
+(Tue Apr 25 00:54:15 2023) Epoch:  2  Training Cost:  2.491424382901659 Training Accuracy:  0.8182444852941176
+(Tue Apr 25 00:54:15 2023) Epoch:  2  Test Cost:  3.6827699343363443 Test Accuracy:  0.7643229166666666
+learning rate:  5e-05
+(Tue Apr 25 00:54:16 2023) Epoch:  3  Training Cost:  1.6698396065655876 Training Accuracy:  0.8494178921568627
+(Tue Apr 25 00:54:16 2023) Epoch:  3  Test Cost:  2.907032787799835 Test Accuracy:  0.7903645833333334
+learning rate:  5e-05
+(Tue Apr 25 00:54:16 2023) Epoch:  4  Training Cost:  1.1942230056898266 Training Accuracy:  0.8707107843137255
+(Tue Apr 25 00:54:16 2023) Epoch:  4  Test Cost:  2.389998813470205 Test Accuracy:  0.7994791666666666
+learning rate:  1e-06
+(Tue Apr 25 00:54:17 2023) Epoch:  5  Training Cost:  0.7813914066144064 Training Accuracy:  0.8989736519607843
+(Tue Apr 25 00:54:17 2023) Epoch:  5  Test Cost:  2.0734592179457345 Test Accuracy:  0.8274739583333334
+learning rate:  1e-06
+(Tue Apr 25 00:54:18 2023) Epoch:  6  Training Cost:  0.647181311220515 Training Accuracy:  0.9018841911764706
+(Tue Apr 25 00:54:18 2023) Epoch:  6  Test Cost:  2.1293375194072723 Test Accuracy:  0.8125
+learning rate:  1e-06
+(Tue Apr 25 00:54:18 2023) Epoch:  7  Training Cost:  0.43732015788555145 Training Accuracy:  0.9234834558823529
+(Tue Apr 25 00:54:18 2023) Epoch:  7  Test Cost:  1.7398099303245544 Test Accuracy:  0.8229166666666666
+learning rate:  1e-06
+Traceback (most recent call last):
+  File "cnn3.py", line 410, in <module>
+    phase_train: True})
+  File "/home/jyhong/.conda/envs/test/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 968, in run
+    run_metadata_ptr)
+  File "/home/jyhong/.conda/envs/test/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1191, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/jyhong/.conda/envs/test/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1369, in _do_run
+    run_metadata)
+  File "/home/jyhong/.conda/envs/test/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1375, in _do_call
+    return fn(*args)
+  File "/home/jyhong/.conda/envs/test/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1360, in _run_fn
+    target_list, run_metadata)
+  File "/home/jyhong/.conda/envs/test/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1453, in _call_tf_sessionrun
+    run_metadata)
+KeyboardInterrupt
+(Tue Apr 25 00:54:19 2023) Epoch:  8  Training Cost:  0.3363434524804938 Training Accuracy:  0.9307598039215687
+(Tue Apr 25 00:54:19 2023) Epoch:  8  Test Cost:  1.57733520368735 Test Accuracy:  0.833984375
+learning rate:  1e-06

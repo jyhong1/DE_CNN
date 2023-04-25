@@ -1,0 +1,49 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 1 issues that require attention
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+File: cnn.py
+--------------------------------------------------------------------------------
+cnn.py:448:8: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'cnn.py'
+ outputting to 'cnn2.py'
+--------------------------------------------------------------------------------
+
+158:14: INFO: Renamed 'tf.truncated_normal' to 'tf.random.truncated_normal'
+167:11: INFO: Added keywords to args of function 'tf.nn.conv2d'
+167:11: INFO: Renamed keyword argument for tf.nn.conv2d from filter to filters
+184:11: INFO: Added keywords to args of function 'tf.nn.max_pool'
+184:11: INFO: Renamed keyword argument for tf.nn.max_pool from value to input
+184:11: INFO: Renamed 'tf.nn.max_pool' to 'tf.nn.max_pool2d'
+202:9: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+203:4: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+204:12: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+205:14: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+242:14: INFO: Changing keep_prob arg of tf.nn.dropout to rate, and recomputing value.
+
+246:9: INFO: Added keywords to args of function 'tf.argmax'
+251:40: INFO: Renamed 'tf.trainable_variables' to 'tf.compat.v1.trainable_variables'
+256:11: INFO: Added keywords to args of function 'tf.reduce_mean'
+256:26: INFO: Changing labels arg of tf.nn.softmax_cross_entropy_with_logits to tf.stop_gradient(labels). Please check this transformation.
+
+259:11: INFO: Added keywords to args of function 'tf.reduce_mean'
+259:26: INFO: Changing labels arg of tf.nn.softmax_cross_entropy_with_logits to tf.stop_gradient(labels). Please check this transformation.
+
+261:12: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+264:30: INFO: Added keywords to args of function 'tf.argmax'
+264:63: INFO: Added keywords to args of function 'tf.argmax'
+265:11: INFO: Added keywords to args of function 'tf.reduce_mean'
+273:9: INFO: Renamed 'tf.ConfigProto' to 'tf.compat.v1.ConfigProto'
+309:9: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+310:20: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+422:25: INFO: Added keywords to args of function 'tf.argmax'
+448:8: WARNING: *.save requires manual check. (This warning is only applicable if the code saves a tf.Keras model) Keras model.save now saves to the Tensorflow SavedModel format by default, instead of HDF5. To continue saving to HDF5, add the argument save_format='h5' to the save() function.
+--------------------------------------------------------------------------------
+

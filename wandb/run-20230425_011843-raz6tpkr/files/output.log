@@ -1,0 +1,53 @@
+folder:  0
+indexes shape:  (19200,)
+cnn_test_x shape:  (1920, 1, 9, 9, 4)
+test_y shape:  (1920, 2)
+cnn_train_x shape:  (17280, 1, 9, 9, 4)
+train_y shape:  (17280, 2)
+training examples: 17280
+test examples    : 1920
+batch_:  136
+learning rate:  0.0001
+(Tue Apr 25 01:19:00 2023) Epoch:  1  Training Cost:  nan Training Accuracy:  nan
+(Tue Apr 25 01:19:00 2023) Epoch:  1  Test Cost:  nan Test Accuracy:  nan
+learning rate:  0.0001
+(Tue Apr 25 01:19:01 2023) Epoch:  2  Training Cost:  nan Training Accuracy:  nan
+(Tue Apr 25 01:19:01 2023) Epoch:  2  Test Cost:  nan Test Accuracy:  nan
+learning rate:  0.0001
+(Tue Apr 25 01:19:02 2023) Epoch:  3  Training Cost:  nan Training Accuracy:  nan
+(Tue Apr 25 01:19:02 2023) Epoch:  3  Test Cost:  nan Test Accuracy:  nan
+learning rate:  0.0001
+(Tue Apr 25 01:19:03 2023) Epoch:  4  Training Cost:  nan Training Accuracy:  nan
+(Tue Apr 25 01:19:03 2023) Epoch:  4  Test Cost:  nan Test Accuracy:  nan
+learning rate:  0.0001
+(Tue Apr 25 01:19:04 2023) Epoch:  5  Training Cost:  nan Training Accuracy:  nan
+(Tue Apr 25 01:19:04 2023) Epoch:  5  Test Cost:  nan Test Accuracy:  nan
+learning rate:  0.0001
+(Tue Apr 25 01:19:05 2023) Epoch:  6  Training Cost:  nan Training Accuracy:  nan
+(Tue Apr 25 01:19:05 2023) Epoch:  6  Test Cost:  nan Test Accuracy:  nan
+learning rate:  0.0001
+(Tue Apr 25 01:19:06 2023) Epoch:  7  Training Cost:  nan Training Accuracy:  nan
+(Tue Apr 25 01:19:06 2023) Epoch:  7  Test Cost:  nan Test Accuracy:  nan
+learning rate:  0.0001
+(Tue Apr 25 01:19:07 2023) Epoch:  8  Training Cost:  nan Training Accuracy:  nan
+(Tue Apr 25 01:19:07 2023) Epoch:  8  Test Cost:  nan Test Accuracy:  nan
+learning rate:  0.0001
+(Tue Apr 25 01:19:08 2023) Epoch:  9  Training Cost:  nan Training Accuracy:  nan
+(Tue Apr 25 01:19:08 2023) Epoch:  9  Test Cost:  nan Test Accuracy:  nan
+learning rate:  0.0001
+Traceback (most recent call last):
+  File "cnn3.py", line 410, in <module>
+    phase_train: True})
+  File "/home/jyhong/.conda/envs/test/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 968, in run
+    run_metadata_ptr)
+  File "/home/jyhong/.conda/envs/test/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1191, in _run
+    feed_dict_tensor, options, run_metadata)
+  File "/home/jyhong/.conda/envs/test/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1369, in _do_run
+    run_metadata)
+  File "/home/jyhong/.conda/envs/test/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1375, in _do_call
+    return fn(*args)
+  File "/home/jyhong/.conda/envs/test/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1360, in _run_fn
+    target_list, run_metadata)
+  File "/home/jyhong/.conda/envs/test/lib/python3.7/site-packages/tensorflow/python/client/session.py", line 1453, in _call_tf_sessionrun
+    run_metadata)
+KeyboardInterrupt
